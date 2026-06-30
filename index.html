@@ -1,13 +1,184 @@
 <!DOCTYPE html>
-<html lang='pt-br'>
+<html lang="pt-BR">
 <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Blog</title>
-    <link rel='stylesheet' href='main.css'>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoDrive Blog</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#111,#d40000);
+    color:#fff;
+    text-align:center;
+    padding:70px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.2rem;
+}
+
+nav{
+    background:#222;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ff3b3b;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+}
+
+.post{
+    background:#fff;
+    margin-bottom:25px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+}
+
+.post img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+}
+
+.post-content{
+    padding:25px;
+}
+
+.post h2{
+    color:#d40000;
+    margin-bottom:10px;
+}
+
+.post p{
+    line-height:1.7;
+    margin-bottom:15px;
+}
+
+button{
+    background:#d40000;
+    color:#fff;
+    border:none;
+    padding:12px 20px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#900000;
+}
+
+footer{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+</style>
+
 </head>
 <body>
-    <h1>meu blog</h1>
-    <p>aqui vou fazer meu blog</p>
+
+<header>
+    <h1>🚗 AutoDrive Blog</h1>
+    <p>Notícias, lançamentos, esportivos e dicas do mundo automotivo.</p>
+</header>
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#">Lançamentos</a>
+    <a href="#">Esportivos</a>
+    <a href="#">SUVs</a>
+    <a href="#">Elétricos</a>
+    <a href="#">Contato</a>
+</nav>
+
+<div class="container">
+
+<div class="post">
+<img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1200" alt="Carro esportivo">
+
+<div class="post-content">
+<h2>Os esportivos mais desejados de 2026</h2>
+
+<p>
+Os carros esportivos continuam evoluindo com motores mais eficientes,
+tecnologia embarcada e desempenho impressionante. Nesta matéria mostramos
+alguns dos modelos que mais chamam atenção entre os apaixonados por velocidade.
+</p>
+
+<button onclick="alert('Em breve o artigo completo!')">
+Ler mais
+</button>
+
+</div>
+</div>
+
+<div class="post">
+<img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200" alt="SUV">
+
+<div class="post-content">
+<h2>Vale a pena comprar um SUV?</h2>
+
+<p>
+Os SUVs conquistaram o mercado graças ao conforto, espaço interno e posição
+elevada ao dirigir. Veja as vantagens, desvantagens e quais modelos se destacam.
+</p>
+
+</div>
+</div>
+
+<div class="post">
+<img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=1200" alt="Carro elétrico">
+
+<div class="post-content">
+<h2>O futuro dos carros elétricos</h2>
+
+<p>
+A eletrificação avança rapidamente e as montadoras investem em baterias mais
+eficientes, maior autonomia e recarga ultrarrápida.
+</p>
+
+</div>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 AutoDrive Blog • Criado com HTML e CSS • GitHub Pages</p>
+</footer>
+
 </body>
 </html>
