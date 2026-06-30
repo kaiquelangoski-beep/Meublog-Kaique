@@ -6,178 +6,187 @@
 <title>AutoDrive Blog</title>
 
 <style>
+
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
 }
 
 body{
-    font-family:Arial,Helvetica,sans-serif;
-    background:#f4f4f4;
-    color:#333;
+background:#f4f4f4;
 }
 
 header{
-    background:linear-gradient(135deg,#111,#d40000);
-    color:#fff;
-    text-align:center;
-    padding:70px 20px;
-}
-
-header h1{
-    font-size:3rem;
-}
-
-header p{
-    margin-top:10px;
-    font-size:1.2rem;
+background:linear-gradient(90deg,#111,#c40000);
+color:white;
+padding:60px;
+text-align:center;
 }
 
 nav{
-    background:#222;
-    padding:15px;
-    text-align:center;
+background:#222;
+padding:15px;
+text-align:center;
 }
 
 nav a{
-    color:#fff;
-    text-decoration:none;
-    margin:0 15px;
-    font-weight:bold;
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
 }
 
 nav a:hover{
-    color:#ff3b3b;
+color:#ff4d4d;
 }
 
 .container{
-    width:90%;
-    max-width:1100px;
-    margin:40px auto;
+width:90%;
+max-width:1100px;
+margin:30px auto;
 }
 
 .post{
-    background:#fff;
-    margin-bottom:25px;
-    border-radius:10px;
-    overflow:hidden;
-    box-shadow:0 4px 10px rgba(0,0,0,.15);
+background:white;
+margin-bottom:30px;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 0 15px rgba(0,0,0,.15);
 }
 
 .post img{
-    width:100%;
-    height:320px;
-    object-fit:cover;
+width:100%;
+height:350px;
+object-fit:cover;
 }
 
 .post-content{
-    padding:25px;
+padding:25px;
 }
 
 .post h2{
-    color:#d40000;
-    margin-bottom:10px;
-}
-
-.post p{
-    line-height:1.7;
-    margin-bottom:15px;
+color:#c40000;
+margin-bottom:15px;
 }
 
 button{
-    background:#d40000;
-    color:#fff;
-    border:none;
-    padding:12px 20px;
-    border-radius:6px;
-    cursor:pointer;
-    font-size:16px;
+background:#c40000;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+font-size:16px;
 }
 
 button:hover{
-    background:#900000;
+background:#8b0000;
 }
 
 footer{
-    background:#111;
-    color:#fff;
-    text-align:center;
-    padding:25px;
-    margin-top:40px;
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
 }
+
 </style>
 
 </head>
 <body>
 
 <header>
-    <h1>🚗 AutoDrive Blog</h1>
-    <p>Notícias, lançamentos, esportivos e dicas do mundo automotivo.</p>
+
+<h1>🚗 AutoDrive Blog</h1>
+
+<p>
+Notícias, curiosidades e novidades do mundo automotivo.
+</p>
+
 </header>
 
 <nav>
-    <a href="#">Início</a>
-    <a href="#">Lançamentos</a>
-    <a href="#">Esportivos</a>
-    <a href="#">SUVs</a>
-    <a href="#">Elétricos</a>
-    <a href="#">Contato</a>
+
+<a href="index.html">Início</a>
+
+<a href="esportivos.html">Esportivos</a>
+
+<a href="suv.html">SUVs</a>
+
+<a href="eletricos.html">Elétricos</a>
+
 </nav>
 
 <div class="container">
 
 <div class="post">
-<img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1200" alt="Carro esportivo">
+
+<img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1200">
 
 <div class="post-content">
+
 <h2>Os esportivos mais desejados de 2026</h2>
 
 <p>
-Os carros esportivos continuam evoluindo com motores mais eficientes,
-tecnologia embarcada e desempenho impressionante. Nesta matéria mostramos
-alguns dos modelos que mais chamam atenção entre os apaixonados por velocidade.
+Conheça alguns dos carros esportivos mais incríveis do mercado.
 </p>
 
-<button onclick="alert('Em breve o artigo completo!')">
-Ler mais
-</button>
+<a href="esportivos.html">
+<button>Ler mais sobre Esportivos</button>
+</a>
 
 </div>
+
 </div>
 
 <div class="post">
-<img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200" alt="SUV">
+
+<img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200">
 
 <div class="post-content">
+
 <h2>Vale a pena comprar um SUV?</h2>
 
 <p>
-Os SUVs conquistaram o mercado graças ao conforto, espaço interno e posição
-elevada ao dirigir. Veja as vantagens, desvantagens e quais modelos se destacam.
+Os SUVs são os modelos preferidos das famílias brasileiras.
 </p>
 
+<a href="suv.html">
+<button>Ler mais sobre SUVs</button>
+</a>
+
 </div>
+
 </div>
 
 <div class="post">
-<img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=1200" alt="Carro elétrico">
+
+<img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=1200">
 
 <div class="post-content">
+
 <h2>O futuro dos carros elétricos</h2>
 
 <p>
-A eletrificação avança rapidamente e as montadoras investem em baterias mais
-eficientes, maior autonomia e recarga ultrarrápida.
+Conheça a evolução dos veículos elétricos.
 </p>
 
+<a href="eletricos.html">
+<button>Ler mais sobre Elétricos</button>
+</a>
+
 </div>
+
 </div>
 
 </div>
 
 <footer>
-<p>© 2026 AutoDrive Blog • Criado com HTML e CSS • GitHub Pages</p>
+
+© 2026 AutoDrive Blog
+
 </footer>
 
 </body>
